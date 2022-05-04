@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <h3>Player 1</h3>
+  <input id="Player1" type="text" name="">
+  <h4>Player 2</h4>
+  <input id="Player2" type="text" name="">
+  <button onclick="displayBoardGame()">Submit</button>
+  <div id="container">
+    <div class="board">
+        <div class="cell" id="0"><span></span></div>
+        <div class="cell" id="1"><span></span></div>
+        <div class="cell" id="2"><span></span></div>
+        <div class="cell" id="3"><span></span></div>
+        <div class="cell" id="4"><span></span></div>
+        <div class="cell" id="5"><span></span></div>
+        <div class="cell" id="6"><span></span></div>
+        <div class="cell" id="7"><span></span></div>
+        <div class="cell" id="8"><span></span></div>
+      </div>  
+          </div> 
+   <div id="buttons">
+          <button class="1p">1 Player vs CPU</button>
+          <button class="2p">2 Player Game</button>
+          <button id="restart">Play Again</button>
+        </div>
+  <h2 id="winner"></h2>
+          <div>
+            <div id="playerOne">X wins</div>
+            <div id="playerTWO_CPU">O Wins</div>
+            <div id="draw">Draw</div>
+          </div>
+    
+ <script src="main.js"></script> 
+</body>
+</html>
